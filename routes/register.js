@@ -5,7 +5,7 @@ const express=require('express');
 const bodyParser = require('body-parser');
 const { render } = require('ejs');
 const md5=require("md5");
-const session = require('express-session')
+const session = require('cookie-session')
 // const work=require('./test1.js');
 const flash=require("connect-flash");
 router.use(flash());
