@@ -5,7 +5,7 @@ const express=require('express');
 const bodyParser = require('body-parser');
 const { render } = require('ejs');
 const md5=require("md5");
-const session = require('cookie-session')
+const session = require('express-session')
 // const work=require('./test1.js');
 const flash=require("connect-flash");
 router.use(flash());
@@ -129,13 +129,13 @@ const Diagnose=mongoose.model("diagnose",diagnoseschema);
 
 // router.post('/',function(req,res){
 
-  var firstname="Admin";
-var password=md5("123456");
-const insert=new Login({
-  firstname:firstname,
-  password:password,
-})
-insert.save();
+//   var firstname="Admin";
+// var password=md5("123456");
+// const insert=new Login({
+//   firstname:firstname,
+//   password:password,
+// })
+// insert.save();
 // // // // })
 
  router.post('/patient',function(req,res){
