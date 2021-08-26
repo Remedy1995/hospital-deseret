@@ -2,9 +2,6 @@
     "title": "SB Admin 2",
     "name": "startbootstrap-sb-admin-2",
     "version": "4.1.3",
-    "scripts": {
-        "start": "node_modules/.bin/gulp watch"
-    },
      "scripts": {
 "start": "node index.js"},
     "description": "An open source Bootstrap 4 admin theme.",
