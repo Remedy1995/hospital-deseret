@@ -5,6 +5,8 @@
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
+     "scripts": {
+"start": "node index.js"},
     "description": "An open source Bootstrap 4 admin theme.",
     "keywords": [
         "css",
